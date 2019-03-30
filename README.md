@@ -26,7 +26,19 @@ command depends on your present working directory), then please note that contex
    the derivative of the position of a moving object with respect to time is the object's 
    velocity: this measures how quickly the position of the object changes when time advances.
    
-   ![calculus](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Tangent_to_a_curve.svg/2560px-Tangent_to_a_curve.svg.png)
+   ![A labelled tangent to a curve.](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Tangent_to_a_curve.svg/2560px-Tangent_to_a_curve.svg.png)
+   
+   The derivative of a function of a single variable at a chosen input value, when it exists, 
+   is the slope of the tangent line to the graph of the function at that point. The tangent 
+   line is the best linear approximation of the function near that input value. For this reason, 
+   the derivative is often described as the "instantaneous rate of change", the ratio of the 
+   instantaneous change in the dependent variable to that of the independent variable.
+   
+   **The two paragraphs above are adapted from Wikepedia.**
+   Wikipedia contributors. (2019, March 23). 
+   Derivative. In _Wikipedia, The Free Encyclopedia._
+   Retrieved 22:09, March 30, 2019, from 
+   https://en.wikipedia.org/w/index.php?title=Derivative&oldid=889095793
 
 1. April Fools! Breathe in. Breathe out. You just need to work on your project today.
 
