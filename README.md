@@ -25,6 +25,8 @@ command depends on your present working directory), then please note that contex
    in its argument (input value). Derivatives are a fundamental tool of mathematics. For example, 
    the derivative of the position of a moving object with respect to time is the object's 
    velocity: this measures how quickly the position of the object changes when time advances.
+   
+   ![calculus](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Tangent_to_a_curve.svg/2560px-Tangent_to_a_curve.svg.png)
 
 1. April Fools! Breathe in. Breathe out. You just need to work on your project today.
 
