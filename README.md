@@ -35,6 +35,10 @@ command depends on your present working directory), then please note that contex
    the derivative is often described as the "instantaneous rate of change", the ratio of the 
    instantaneous change in the dependent variable to that of the independent variable.
    
+   It can be estimated using the five-point stencil method:
+   
+   ![five-point stencil method](https://wikimedia.org/api/rest_v1/media/math/render/svg/554d2e3e5894dc11cffad91024372276eab6987a)  
+   
    **The two paragraphs above are adapted from Wikepedia.**
    Wikipedia contributors. (2019, March 23). 
    Derivative. In _Wikipedia, The Free Encyclopedia._
