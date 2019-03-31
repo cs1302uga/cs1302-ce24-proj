@@ -1,4 +1,4 @@
-# cs1302-ce24 Differential Calculus with the Stream API and Lambda Expressions
+# cs1302-ce24 Differential Univariate Calculus Fun with the Stream API and Lambda Expressions
 
 > Curiouser and curiouser!
 > **--Alice, _Alice in Wonderland_ by Lewis Carroll**
@@ -20,11 +20,12 @@ command depends on your present working directory), then please note that contex
 
 ### Getting Started
 
-1. As you know from precalculus, the derivative of a function of a real variable measures 
-   the sensitivity to change of the function value (output value) with respect to a change 
-   in its argument (input value). Derivatives are a fundamental tool of mathematics. For example, 
-   the derivative of the position of a moving object with respect to time is the object's 
-   velocity: this measures how quickly the position of the object changes when time advances.
+1. As you know from your precalculus class in junior high / middle school, the derivative of 
+   a function of a real variable measures the sensitivity to change of the function value 
+   (output value) with respect to a change in its argument (input value). Derivatives are 
+   a fundamental tool of mathematics. For example, the derivative of the position of a moving 
+   object with respect to time is the object's velocity: this measures how quickly the 
+   position of the object changes when time advances.
    
    ![A labelled tangent to a curve.](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Tangent_to_a_curve.svg/2560px-Tangent_to_a_curve.svg.png)
    
