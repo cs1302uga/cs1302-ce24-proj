@@ -77,11 +77,17 @@ public interface RealFunction extends Function<Double, Double> {
     * Returns the first derivative of the function using a symmetric difference quotient.
     * @return the first derivative of the function
     */
-   public RealFunction derivative() {
-       return return x -> (apply(x + H) - apply(x - H)) / ((x + H) - (x - H));
+   public default RealFunction derivative() {
+       return x -> (apply(x + H) - apply(x - H)) / ((x + H) - (x - H));
    } // derivative
 
 } // RealFunction
+```
+
+```java
+RealFunction  f = x -> (x * x) + 4;          //  f(x) = x^^2 + 4
+RealFunction df = f.derivative();            // df(x) = 2 * x
+System.out.println(df.apply(df.apply(3.0))); // df(3) = 6
 ```
 
 **NOT A CHECKPOINT**
