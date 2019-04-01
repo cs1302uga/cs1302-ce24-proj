@@ -98,10 +98,10 @@ One _fun_ application of numerical differentiation is approximating a root (or z
 ```java
 public static double newtonZero(RealFunction f, double guess) {
     RealFunction df = f.derivative();
-    while (Math.abs(f.apply(x)) > RealFunction.E) { 
-        x = x - f.apply(x) / df.apply(x);
+    while (Math.abs(f.apply(guess)) > RealFunction.E) { 
+        guess = guess - f.apply(guess) / df.apply(guess);
     } // while
-    return x;
+    return guess;
 } // newtonZero
 ```
 
