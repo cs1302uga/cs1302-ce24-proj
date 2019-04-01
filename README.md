@@ -5,7 +5,7 @@
 
 This class exercise introduces students the five-point stencil method for numerical differentiation,
 computed efficiently using the Java 8 Stream API and lambda expression representations of real-valued
-funtions in a reproducing kernel space. 
+functions in a reproducing kernel space. 
 
 ## Prerequisite Knowledge
 
