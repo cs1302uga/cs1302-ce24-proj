@@ -112,8 +112,8 @@ double root    = newtonZero(f, guess);
 System.out.println(root); // 2.000001907348624 (approximately 2)
 ```
 
-With an implementation of Newton's method, you can create your own method for approximate a
-square root by considering it as a root finding problem!
+With an implementation of Newton's method, you can create your own method for approximating a
+square root by reframing it as a root finding problem!
 
 ```java
 public static double sqrt(double n) {
