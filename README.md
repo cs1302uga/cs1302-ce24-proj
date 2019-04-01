@@ -58,6 +58,34 @@ command depends on your present working directory), then please note that contex
 
 **CHECKPOINT**
 
+For those who really are curious about methods for numerical differentiation, you might
+create a functional interface to represent a function of a real variable, then provide a
+default method to approximate the derivative:
+
+```java
+import java.util.function.Function;
+
+public interface RealFunction extends Function<Double, Double> {
+
+   /** The value used for determining if two <code>double</code> values are essentially equal. */
+   static final double E = 1E-11;
+   
+   /** The half-width used for two-sided differentiation. */
+   static final double H = E;
+
+   /**
+    * Returns the first derivative of the function using a symmetric difference quotient.
+    * @return the first derivative of the function
+    */
+   public RealFunction derivative() {
+       return return x -> (apply(x + H) - apply(x - H)) / ((x + H) - (x - H));
+   } // derivative
+
+} // RealFunction
+```
+
+**NOT A CHECKPOINT**
+
 <hr/>
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
