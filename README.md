@@ -96,15 +96,20 @@ One _fun_ application of numerical differentiation is approximating a root (or z
 [Newton's method](https://en.wikipedia.org/wiki/Newton%27s_method):
 
 ```java
-RealFunction  f = x -> (x - 2) * (x - 2);
-RealFunction df = f.derivative();
-double x        = 3.0;
+public static double newtonZero(RealFunction f, double guess) {
+    RealFunction df = f.derivative();
+    while (Math.abs(f.apply(x)) > RealFunction.E) { 
+        x = x - f.apply(x) / df.apply(x);
+    } // while
+    return x;
+} // newtonZero
+```
 
-while (Math.abs(f.apply(x)) > RealFunction.E) { 
-    x = x - f.apply(x) / df.apply(x);
-} // while
-
-System.out.println(x); // 2.000001907348624 (approximately 2)
+```java
+RealFunction f = x -> (x - 2) * (x - 2);
+double guess   = 3.0;
+double root    = newtonZero(g, guess);
+System.out.println(root); // 2.000001907348624 (approximately 2)
 ```
 
 **NOT A CHECKPOINT**
