@@ -108,7 +108,7 @@ public static double newtonZero(RealFunction f, double guess) {
 ```java
 RealFunction f = x -> (x - 2) * (x - 2);
 double guess   = 3.0;
-double root    = newtonZero(g, guess);
+double root    = newtonZero(f, guess);
 System.out.println(root); // 2.000001907348624 (approximately 2)
 ```
 
