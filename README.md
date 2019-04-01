@@ -92,6 +92,21 @@ RealFunction df = f.derivative();            // df(x) = 2 * x
 System.out.println(df.apply(df.apply(3.0))); // df(3) = 6
 ```
 
+One _fun_ application of numerical differentiation is approximating a root (or zero) of a function using
+[Newton's method](https://en.wikipedia.org/wiki/Newton%27s_method):
+
+```java
+RealFunction  f = x -> (x - 2) * (x - 2);
+RealFunction df = f.derivative();
+double x        = 3.0;
+
+while (Math.abs(f.apply(x)) > RealFunction.E) { 
+    x = x - f.apply(x) / df.apply(x);
+} // while
+
+System.out.println(x); // 2.000001907348624 (approximately 2)
+```
+
 **NOT A CHECKPOINT**
 
 <hr/>
