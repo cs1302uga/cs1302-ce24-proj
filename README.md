@@ -84,6 +84,8 @@ public interface RealFunction extends Function<Double, Double> {
 } // RealFunction
 ```
 
+Then, you can use a lambda expression to represent a function of a real variable and take its derivative:
+
 ```java
 RealFunction  f = x -> (x * x) + 4;          //  f(x) = x^^2 + 4
 RealFunction df = f.derivative();            // df(x) = 2 * x
