@@ -116,7 +116,7 @@ With an implementation of Newton's method, you can create your own method for ap
 square root by considering it as a root finding problem!
 
 ```java
-public double sqrt(double n) {
+public static double sqrt(double n) {
      RealFunction f = x -> (x * x) - n; // the square root function
      double guess = 0.3 * n;            // arbitrary starting place; seemed good
      return newtonZero(f, guess);
