@@ -112,6 +112,38 @@ double root    = newtonZero(f, guess);
 System.out.println(root); // 2.000001907348624 (approximately 2)
 ```
 
+With an implementation of Newton's method, you can create your own method for approximate a
+square root by considering it as a root finding problem!
+
+```java
+public double sqrt(double n) {
+     RealFunction f = x -> (x * x) - n; // the square root function
+     double guess = 0.3 * n;            // arbitrary starting place; seemed good
+     return newtonZero(f, guess);
+} // sqrt
+```
+
+```java
+for (int i = 1; i <= 10; ++i) {
+     System.out.println(sqrt(i * i));
+} // for
+```
+
+The output is presented below. Remember that these are just approximations.
+
+```
+1.0
+2.0
+3.0
+4.0
+5.0
+6.0
+7.0
+8.0
+9.000000000000021
+10.0
+```
+
 **NOT A CHECKPOINT**
 
 <hr/>
