@@ -39,7 +39,11 @@ command depends on your present working directory), then please note that contex
    
    A first order derivative can be estimated using the five-point stencil method:
    
-   ![five-point stencil method](https://wikimedia.org/api/rest_v1/media/math/render/svg/554d2e3e5894dc11cffad91024372276eab6987a)  
+   ![five-point stencil method](https://wikimedia.org/api/rest_v1/media/math/render/svg/554d2e3e5894dc11cffad91024372276eab6987a)
+   
+   where
+   
+   ![five-point stencil method constant](https://wikimedia.org/api/rest_v1/media/math/render/svg/666c60123c8e7ff40bbb58e46c1af3c5fbb5e688)
    
    **The two paragraphs above are adapted from Wikepedia.**
    Wikipedia contributors. (2019, March 23). 
