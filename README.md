@@ -22,7 +22,7 @@ command depends on your present working directory), then please note that contex
 
 ### Getting Started
 
-1. As you know from your precalculus class in junior high / middle school, the derivative of 
+1. As you know from your precalculus class in junior high / middle school, the **derivative** of 
    a function of a real variable measures the sensitivity to change of the function value 
    (output value) with respect to a change in its argument (input value). Derivatives are 
    a fundamental tool of mathematics. For example, the derivative of the position of a moving 
@@ -32,7 +32,7 @@ command depends on your present working directory), then please note that contex
    ![A labelled tangent to a curve.](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Tangent_to_a_curve.svg/2560px-Tangent_to_a_curve.svg.png)
    
    The derivative of a function of a single variable at a chosen input value, when it exists, 
-   is the slope of the tangent line to the graph of the function at that point. The tangent 
+   is the **slope of the tangent line to the graph of the function at that point**. The tangent 
    line is the best linear approximation of the function near that input value. For this reason, 
    the derivative is often described as the "instantaneous rate of change", the ratio of the 
    instantaneous change in the dependent variable to that of the independent variable.
