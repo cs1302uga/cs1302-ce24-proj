@@ -47,7 +47,10 @@ command depends on your present working directory), then please note that contex
    Retrieved 22:09, March 30, 2019, from 
    https://en.wikipedia.org/w/index.php?title=Derivative&oldid=889095793
 
-1. April Fools! Breathe in. Breathe out. You just need to work on your project today.
+1. **April Fools!** Breathe in. Breathe out. You just need to work on your project today.
+
+1. Please work on your project until the end of the period. You can only get a checkpoint
+   signature today when you turn your slip in near the end of the period (last five minutes).
 
 **CHECKPOINT**
 
